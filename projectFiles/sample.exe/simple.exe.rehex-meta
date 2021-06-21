@@ -1,0 +1,99 @@
+{
+  "comments": [
+    {
+      "offset": 0,
+      "length": 0,
+      "text": "____________________DOS HEADER____________________|\n                Show's it's Binary\n__________________________________________________|\n\nName: MS-DOS header (Constant Signature)\nExplanation: The first two letters are always MZ (after Mark Zbikowski one of the developers of MS-DOS). \nField: e_magic\nValue:\n  \"MZ\": 4d5A"
+    },
+    {
+      "offset": 2,
+      "length": 0,
+      "text": "Whitespace [Empty] Zeroes (00000000)"
+    },
+    {
+      "offset": 60,
+      "length": 0,
+      "text": "Name: Offset of the PE Header\nExplanation: An offest before PE Header\nField: e_lfanew\nValue: \n  0x40: 40000000"
+    },
+    {
+      "offset": 64,
+      "length": 0,
+      "text": "____________________PE HEADER____________________|\n            Show's it's a Modern Binary\n_________________________________________________|\n\nName: PE Signature\nExplanation: A sign that it's PE Binary\nField: Signature\nValue: \n  \"PE\": 5045"
+    },
+    {
+      "offset": 66,
+      "length": 0,
+      "text": "Name: PE Signature Values\nExplanation: Additional Signature Values\nField: Signature\nValue: \n  0, 0: 0000"
+    },
+    {
+      "offset": 68,
+      "length": 0,
+      "text": "Name: Processor\nExplanation: type of the processor ARM/MIPS/Intel/...\nValue:\n    0x14c [intel 386]: 4C01\n"
+    },
+    {
+      "offset": 70,
+      "length": 0,
+      "text": "Name: Number of Sections\nINFO: Sections are named seperators for a Data in this Binary. \nExplanation: How many sections are in this PE executable structure.\nNOTE: You can scroll down and see them (Sections) below in this Binary\n  section 1: .text \n  section 2: .rdata\n  section 3: .data\nField: NumberOfSections \nValue:\n  3: 0300"
+    },
+    {
+      "offset": 72,
+      "length": 0,
+      "text": "Whitespace [Empty] Zeroes (00000000)"
+    },
+    {
+      "offset": 84,
+      "length": 0,
+      "text": "Name: Section Table Offset\nExplanation: Relative offset of the section table\nField: SizeOfOptionalHeader\nValue: \n  0xe0: E000"
+    },
+    {
+      "offset": 86,
+      "length": 0,
+      "text": "Name: File Type\nExplanation: Select Between EXE, DLL, SYS (​device driver), MUI and other file types.\nField: Characteristics\nValue: \n  0x102 [32b EXE]: 0201\n"
+    },
+    {
+      "offset": 88,
+      "length": 0,
+      "text": "____________________Optional HEADER______________|\n                Executable information\n_________________________________________________|"
+    },
+    {
+      "offset": 512,
+      "length": 512,
+      "text": "Section .text\ni386 machine code\nVirtual address: 0x1000\nVirtual size: 0x1000\nMemory access: execute, read"
+    },
+    {
+      "offset": 1024,
+      "length": 512,
+      "text": "Section .rdata\nVirtual address: 0x2000\nVirtual size: 0x1000\nMemory access: read"
+    },
+    {
+      "offset": 1536,
+      "length": 512,
+      "text": "Section .data\nVirtual address: 0x3000\nVirtual size: 0x1000\nMemory access: read, write"
+    }
+  ],
+  "highlights": [],
+  "data_types": [
+    {
+      "offset": 512,
+      "length": 512,
+      "type": "code:i386"
+    }
+  ],
+  "virt_mappings": [
+    {
+      "real_offset": 512,
+      "virt_offset": 4096,
+      "length": 512
+    },
+    {
+      "real_offset": 1024,
+      "virt_offset": 8192,
+      "length": 512
+    },
+    {
+      "real_offset": 1536,
+      "virt_offset": 12288,
+      "length": 512
+    }
+  ]
+}
