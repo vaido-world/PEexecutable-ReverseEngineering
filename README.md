@@ -14,4 +14,4 @@ After opening a file with rehex, there is a need to use
 
 
 #### Unable to insert **at the end of line** in the ASCII viewer or in the Hex Dump 
-Simply press `down key` on the keyboard and it will take you to the last character or at the end of the Hex line.
+Simply press `down key↓` or and `up key↑` on the keyboard and it will take you to the last character or at the end of the Hex line.
