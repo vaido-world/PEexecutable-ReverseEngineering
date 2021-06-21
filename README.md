@@ -21,6 +21,10 @@ Simply press `down key↓` or and `up key↑` on the keyboard and it will take y
 https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/corkami/PE101.zip
 
 
+## Main reference
+https://github.com/corkami/pics/blob/master/binary/pe101/pe101.png
+https://github.com/corkami/pics/blob/master/binary/pe101/pe101.pdf
+
 ## Primary studies this README is based on:
 https://programmersought.com/article/72694414238/
 https://keystrokes2016.wordpress.com/2016/02/02/portable-executable-file-format/  
