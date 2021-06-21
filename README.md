@@ -9,6 +9,7 @@ https://github.com/solemnwarning/rehex/releases/download/0.3.91/rehex-0.3.91-win
 #### Not rendering after opening a file
 After opening a file with rehex, there is a need to use  
 `Mouse middle button` to `scroll up` and `scroll down` to trigger the proper rendering by rehex.
+#### Shows that scrolling up with a mouse, rehex reveals the comments and proper Hex dump and ASCII viewer output 
 ![reghex-norender-scrollup-bug](./images/reghex-norender-scrollup-bug.gif)
 
 
