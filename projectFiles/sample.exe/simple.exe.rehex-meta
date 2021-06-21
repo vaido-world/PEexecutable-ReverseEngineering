@@ -33,7 +33,7 @@
     {
       "offset": 70,
       "length": 0,
-      "text": "Name: Number of Sections\nINFO: Sections are named seperators for a Data in this Binary. \nExplanation: How many sections are in this PE executable structure.\nNOTE: You can scroll down and see them (Sections) below in this Binary\n  section 1: .text \n  section 2: .rdata\n  section 3: .data\nField: NumberOfSections \nValue:\n  3: 0300"
+      "text": "Name: Number of Sections\nINFO: Sections are named seperators for a Data in this Binary. \nExplanation: How many sections are in this PE executable structure.\nNOTE: You can scroll down and see them (Sections) below in this Binary\n  section 1: .text   (This section is where your programmed source code is stored)\n  section 2: .rdata  (Read only data)\n  section 3: .data  \nField: NumberOfSections \nValue:\n  3: 0300"
     },
     {
       "offset": 72,
