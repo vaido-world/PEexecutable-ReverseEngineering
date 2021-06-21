@@ -19,3 +19,8 @@ Simply press `down key↓` or and `up key↑` on the keyboard and it will take y
 
 ## Experimental PE executable example to research
 https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/corkami/PE101.zip
+
+
+## Primary studies this README is based on:
+https://keystrokes2016.wordpress.com/2016/02/02/portable-executable-file-format/
+https://kr-manish.github.io/aragorn/blog/Reversing-Portable-Executable
