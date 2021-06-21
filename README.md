@@ -7,7 +7,8 @@ https://github.com/solemnwarning/rehex/releases/download/0.3.91/rehex-0.3.91-win
 
 ### Bugs in the rehex
 #### Not rendering after opening a file
-After opening a file with rehex, there is a need to use `Mouse middle button` to `scroll up` and `scroll down` to trigger the proper rendering by rehex.
+After opening a file with rehex, there is a need to use  
+`Mouse middle button` to `scroll up` and `scroll down` to trigger the proper rendering by rehex.
 
 
 #### Unable to insert **at the end of line** in the ASCII viewer or in the Hex Dump 
