@@ -53,7 +53,27 @@
     {
       "offset": 88,
       "length": 0,
-      "text": "____________________Optional HEADER______________|\n                Executable information\n_________________________________________________|"
+      "text": "____________________Optional HEADER______________|\n                Executable information\n_________________________________________________|\n\nName: 32bits or 64bits\nExplanation: Instruction set of this Binary\nField: Magic\nValue-meaning: [32b]\nValue: \n  0x10b [32b]: 0B01"
+    },
+    {
+      "offset": 90,
+      "length": 14,
+      "text": "Whitespace [Empty] Zeroes (00000000)"
+    },
+    {
+      "offset": 104,
+      "length": 4,
+      "text": "Name: Address of execution\nExplanation: An address where execution starts\nField: AddressOfEntryPoint\nValue:\n  0x1000: 00100000     (Beginning Address of .text Section)"
+    },
+    {
+      "offset": 108,
+      "length": 0,
+      "text": "Whitespace [Empty] Zeroes (00000000)"
+    },
+    {
+      "offset": 116,
+      "length": 3,
+      "text": "Field: ImageBase\nName: Prefered starting address on the RAM\nExplanation: Specifies the preferred address where the executable should be mapped in memory\nValue: \n  0x400000: 000040"
     },
     {
       "offset": 512,
