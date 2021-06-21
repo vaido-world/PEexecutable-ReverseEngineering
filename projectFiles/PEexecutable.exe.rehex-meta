@@ -1,0 +1,12 @@
+{
+  "comments": [
+    {
+      "offset": 0,
+      "length": 0,
+      "text": "MS-DOS header\n  \"4d5A\"\n  The first two letters are always MZ (after Mark Zbikowski one of the developers of MS-DOS). \nConstant Signature"
+    }
+  ],
+  "highlights": [],
+  "data_types": [],
+  "virt_mappings": []
+}
