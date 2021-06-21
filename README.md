@@ -22,6 +22,7 @@ https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/
 
 
 ## Primary studies this README is based on:
+https://programmersought.com/article/72694414238/
 https://keystrokes2016.wordpress.com/2016/02/02/portable-executable-file-format/  
 https://kr-manish.github.io/aragorn/blog/Reversing-Portable-Executable  
 https://www.bigmessowires.com/2015/10/08/a-handmade-executable-file/  
