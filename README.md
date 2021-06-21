@@ -4,3 +4,6 @@
 
 For taking notes and learning we need a proper Hex Editor, for this time I will use:  
 https://github.com/solemnwarning/rehex/releases/download/0.3.91/rehex-0.3.91-win-x86_64.zip
+
+### Bugs in the rehex
+After opening a file with rehex, there is a need to scroll up and down to trigger the proper rendering by rehex.
