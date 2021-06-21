@@ -22,8 +22,8 @@ https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/
 
 
 ## Main reference
-https://github.com/corkami/pics/blob/master/binary/pe101/pe101.png
-https://github.com/corkami/pics/blob/master/binary/pe101/pe101.pdf
+https://github.com/corkami/pics/blob/master/binary/pe101/pe101.png  
+https://github.com/corkami/pics/blob/master/binary/pe101/pe101.pdf  
 
 ## Primary studies this README is based on:
 https://programmersought.com/article/72694414238/
